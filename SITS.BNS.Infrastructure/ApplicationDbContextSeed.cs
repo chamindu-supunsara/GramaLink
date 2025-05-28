@@ -1,11 +1,11 @@
-﻿using GramaLink.Entities.Entity;
+﻿using SITS.BNS.Entities.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GramaLink.Infrastructure
+namespace SITS.BNS.Infrastructure
 {
     public static class ApplicationDbContextSeed
     {

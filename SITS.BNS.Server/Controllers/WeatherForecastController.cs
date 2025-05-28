@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GramaLink.Controllers
+namespace SITS.BNS.Controllers
 {
     [AllowAnonymous]
     [ApiController]

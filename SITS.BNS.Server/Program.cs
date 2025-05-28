@@ -6,16 +6,16 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using NSwag.Generation.Processors.Security;
 using Microsoft.EntityFrameworkCore;
-using GramaLink.Entities.Common;
-using GramaLink.Infrastructure;
-using GramaLink.Filters;
+using SITS.BNS.Entities.Common;
+using SITS.BNS.Infrastructure;
+using SITS.BNS.Filters;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Mvc;
-using GramaLink.Entities.Interfaces;
-using GramaLink.Services;
-using GramaLink.Application;
-using GramaLink.Common.Interfaces;
-using GramaLink.Common;
+using SITS.BNS.Entities.Interfaces;
+using SITS.BNS.Services;
+using SITS.BNS.Application;
+using SITS.BNS.Common.Interfaces;
+using SITS.BNS.Common;
 
 var builder = WebApplication.CreateBuilder(args);
 

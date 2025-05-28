@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 
-namespace GramaLink.Common
+namespace SITS.BNS.Common
 {
     public class EmailHelper
     {

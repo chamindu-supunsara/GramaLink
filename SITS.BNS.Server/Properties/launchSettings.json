@@ -9,7 +9,7 @@
       }
     },
     "profiles": {
-      "GramaLink": {
+      "SITS.BNS": {
         "commandName": "Project",
         "launchBrowser": true,
         "applicationUrl": "https://localhost:7002;http://localhost:5244",

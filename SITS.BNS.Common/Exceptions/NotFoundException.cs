@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GramaLink.Common.Exceptions
+namespace SITS.BNS.Common.Exceptions
 {
     public class NotFoundException : Exception
     {

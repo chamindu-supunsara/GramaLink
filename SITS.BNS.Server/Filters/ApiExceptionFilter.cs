@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.AspNetCore.Mvc;
-using GramaLink.Common.Exceptions;
+using SITS.BNS.Common.Exceptions;
 
-namespace GramaLink.Filters
+namespace SITS.BNS.Filters
 {
     public class ApiExceptionFilter : ExceptionFilterAttribute
     {

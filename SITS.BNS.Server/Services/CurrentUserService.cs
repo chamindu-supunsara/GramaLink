@@ -1,7 +1,7 @@
-﻿using GramaLink.Entities.Interfaces;
+﻿using SITS.BNS.Entities.Interfaces;
 using System.Security.Claims;
 
-namespace GramaLink.Services
+namespace SITS.BNS.Services
 {
     public class CurrentUserService : ICurrentUserService
     {

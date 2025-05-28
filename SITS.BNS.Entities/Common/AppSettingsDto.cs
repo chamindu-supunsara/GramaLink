@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GramaLink.Entities.Common
+namespace SITS.BNS.Entities.Common
 {
     public class AppSettings
     {

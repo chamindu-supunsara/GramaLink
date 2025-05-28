@@ -6,7 +6,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GramaLink.Common
+namespace SITS.BNS.Common
 {
     public static class Utilities
     {

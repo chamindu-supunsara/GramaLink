@@ -1,16 +1,16 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
-using GramaLink.Entities.Common;
-using GramaLink.Entities.Interfaces;
-using GramaLink.Infrastructure;
+using SITS.BNS.Entities.Common;
+using SITS.BNS.Entities.Interfaces;
+using SITS.BNS.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GramaLink.Application
+namespace SITS.BNS.Application
 {
     public class HttpUnitOfWork : UnitOfWork
     {

@@ -1,11 +1,11 @@
-﻿using GramaLink.Entities.AuthModels;
+﻿using SITS.BNS.Entities.AuthModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GramaLink.Common.Interfaces
+namespace SITS.BNS.Common.Interfaces
 {
     public interface ITokenRefresher
     {
