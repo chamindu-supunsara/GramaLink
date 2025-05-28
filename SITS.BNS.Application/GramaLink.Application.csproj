@@ -15,9 +15,9 @@
 
 
 	<ItemGroup>
-		<ProjectReference Include="..\SITS.BNS.Common\SITS.BNS.Common.csproj" />
-		<ProjectReference Include="..\SITS.BNS.Entities\SITS.BNS.Entities.csproj" />
-		<ProjectReference Include="..\SITS.BNS.Infrastructure\SITS.BNS.Infrastructure.csproj" />
+		<ProjectReference Include="..\SITS.BNS.Common\GramaLink.Common.csproj" />
+		<ProjectReference Include="..\SITS.BNS.Entities\GramaLink.Entities.csproj" />
+		<ProjectReference Include="..\SITS.BNS.Infrastructure\GramaLink.Infrastructure.csproj" />
 	</ItemGroup>
 
 </Project>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SITS.BNS.Entities.Interfaces
+namespace GramaLink.Entities.Interfaces
 {
     public interface ICurrentUserService
     {

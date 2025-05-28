@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Configuration;
-using SITS.BNS.Entities.Entity;
-using SITS.BNS.Entities.Interfaces;
+using GramaLink.Entities.Entity;
+using GramaLink.Entities.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -11,7 +11,7 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SITS.BNS.Infrastructure
+namespace GramaLink.Infrastructure
 {
     public class ApplicationDbContext : DbContext
     {

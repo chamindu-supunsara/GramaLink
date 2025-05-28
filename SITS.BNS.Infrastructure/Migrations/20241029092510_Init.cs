@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace SITS.BNS.Infrastructure.Migrations
+namespace GramaLink.Infrastructure.Migrations
 {
     /// <inheritdoc />
     public partial class Init : Migration

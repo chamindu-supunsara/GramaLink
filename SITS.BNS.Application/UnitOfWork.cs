@@ -1,19 +1,19 @@
 ﻿using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using SITS.BNS.Application.Repositories.Interfaces;
-using SITS.BNS.Application.Repositories;
-using SITS.BNS.Entities.Common;
-using SITS.BNS.Entities.Interfaces;
+using GramaLink.Application.Repositories.Interfaces;
+using GramaLink.Application.Repositories;
+using GramaLink.Entities.Common;
+using GramaLink.Entities.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SITS.BNS.Infrastructure;
+using GramaLink.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 
-namespace SITS.BNS.Application
+namespace GramaLink.Application
 {
     public class UnitOfWork : IUnitOfWork
     {

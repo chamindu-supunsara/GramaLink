@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using SITS.BNS.Infrastructure;
+using GramaLink.Infrastructure;
 
 #nullable disable
 
-namespace SITS.BNS.Infrastructure.Migrations
+namespace GramaLink.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -22,7 +22,7 @@ namespace SITS.BNS.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("SITS.BNS.Entities.Entity.AppRole", b =>
+            modelBuilder.Entity("GramaLink.Entities.Entity.AppRole", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -66,7 +66,7 @@ namespace SITS.BNS.Infrastructure.Migrations
                     b.ToTable("UIA_AppRoles", (string)null);
                 });
 
-            modelBuilder.Entity("SITS.BNS.Entities.Entity.AppUser", b =>
+            modelBuilder.Entity("GramaLink.Entities.Entity.AppUser", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -114,7 +114,7 @@ namespace SITS.BNS.Infrastructure.Migrations
                     b.ToTable("UIA_AppUsers", (string)null);
                 });
 
-            modelBuilder.Entity("SITS.BNS.Entities.Entity.AppUserRole", b =>
+            modelBuilder.Entity("GramaLink.Entities.Entity.AppUserRole", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -160,15 +160,15 @@ namespace SITS.BNS.Infrastructure.Migrations
                     b.ToTable("UIA_AppUserRoles", (string)null);
                 });
 
-            modelBuilder.Entity("SITS.BNS.Entities.Entity.AppUserRole", b =>
+            modelBuilder.Entity("GramaLink.Entities.Entity.AppUserRole", b =>
                 {
-                    b.HasOne("SITS.BNS.Entities.Entity.AppRole", "appRole")
+                    b.HasOne("GramaLink.Entities.Entity.AppRole", "appRole")
                         .WithMany()
                         .HasForeignKey("appRoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("SITS.BNS.Entities.Entity.AppUser", "appUser")
+                    b.HasOne("GramaLink.Entities.Entity.AppUser", "appUser")
                         .WithMany()
                         .HasForeignKey("appUserId")
                         .OnDelete(DeleteBehavior.Cascade)

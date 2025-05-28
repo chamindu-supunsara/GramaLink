@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SITS.BNS.Entities.AuthModels
+namespace GramaLink.Entities.AuthModels
 {
     public class Authentication
     {

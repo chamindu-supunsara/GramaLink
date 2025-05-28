@@ -1,11 +1,11 @@
-﻿using SITS.BNS.Entities.Interfaces;
+﻿using GramaLink.Entities.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SITS.BNS.Entities.Entity
+namespace GramaLink.Entities.Entity
 {
     public class AppUser : CommonEntity
     {

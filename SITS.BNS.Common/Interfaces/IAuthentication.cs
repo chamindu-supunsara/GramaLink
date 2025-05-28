@@ -1,4 +1,4 @@
-﻿using SITS.BNS.Entities.AuthModels;
+﻿using GramaLink.Entities.AuthModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SITS.BNS.Common.Interfaces
+namespace GramaLink.Common.Interfaces
 {
     public interface IAuthentication
     {

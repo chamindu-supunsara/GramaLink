@@ -1,4 +1,4 @@
-namespace SITS.BNS
+namespace GramaLink
 {
     public class WeatherForecast
     {

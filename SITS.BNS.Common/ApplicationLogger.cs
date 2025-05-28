@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
-using SITS.BNS.Common.Interfaces;
-using SITS.BNS.Entities.Common;
+using GramaLink.Common.Interfaces;
+using GramaLink.Entities.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace SITS.BNS.Common
+namespace GramaLink.Common
 {
     public class ApplicationLogger : IApplicationLogger
     {

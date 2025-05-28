@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SITS.BNS.Common.Exceptions
+namespace GramaLink.Common.Exceptions
 {
     public class ValidationException : Exception
     {

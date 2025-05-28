@@ -1,12 +1,12 @@
 ﻿using Microsoft.Extensions.Logging;
-using SITS.BNS.Entities.Common;
+using GramaLink.Entities.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SITS.BNS.Common.Interfaces
+namespace GramaLink.Common.Interfaces
 {
     public interface IApplicationLogger
     {

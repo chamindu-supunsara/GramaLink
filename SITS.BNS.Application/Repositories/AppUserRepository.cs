@@ -2,13 +2,13 @@
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using SITS.BNS.Application.Repositories.Common;
-using SITS.BNS.Application.Repositories.Interfaces;
-using SITS.BNS.Common.Exceptions;
-using SITS.BNS.Entities.AuthModels;
-using SITS.BNS.Entities.Common;
-using SITS.BNS.Entities.Entity;
-using SITS.BNS.Infrastructure;
+using GramaLink.Application.Repositories.Common;
+using GramaLink.Application.Repositories.Interfaces;
+using GramaLink.Common.Exceptions;
+using GramaLink.Entities.AuthModels;
+using GramaLink.Entities.Common;
+using GramaLink.Entities.Entity;
+using GramaLink.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
@@ -17,7 +17,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SITS.BNS.Application.Repositories
+namespace GramaLink.Application.Repositories
 {
     public class AppUserRepository : Repository<AppUser>, IAppUserRepository
     {

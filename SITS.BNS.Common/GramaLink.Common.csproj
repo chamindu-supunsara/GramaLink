@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SITS.BNS.Entities\SITS.BNS.Entities.csproj" />
+    <ProjectReference Include="..\SITS.BNS.Entities\GramaLink.Entities.csproj" />
   </ItemGroup>
 
 </Project>

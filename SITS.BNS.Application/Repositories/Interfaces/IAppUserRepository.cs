@@ -1,12 +1,12 @@
-﻿using SITS.BNS.Entities.AuthModels;
-using SITS.BNS.Entities.Entity;
+﻿using GramaLink.Entities.AuthModels;
+using GramaLink.Entities.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SITS.BNS.Application.Repositories.Interfaces
+namespace GramaLink.Application.Repositories.Interfaces
 {
     public interface IAppUserRepository
     {

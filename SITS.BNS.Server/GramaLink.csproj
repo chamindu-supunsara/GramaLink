@@ -12,7 +12,7 @@
 	  </PropertyGroup>
 
 	  <ItemGroup>
-		<PackageReference Include="AutoMapper" Version="12.0.1" />
+		<PackageReference Include="AutoMapper" Version="12.0.0" />
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
 		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.10" />
@@ -45,9 +45,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\SITS.BNS.Application\SITS.BNS.Application.csproj" />
-		<ProjectReference Include="..\SITS.BNS.Common\SITS.BNS.Common.csproj" />
-		<ProjectReference Include="..\SITS.BNS.Infrastructure\SITS.BNS.Infrastructure.csproj" />
+		<ProjectReference Include="..\SITS.BNS.Application\GramaLink.Application.csproj" />
+		<ProjectReference Include="..\SITS.BNS.Common\GramaLink.Common.csproj" />
+		<ProjectReference Include="..\SITS.BNS.Infrastructure\GramaLink.Infrastructure.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

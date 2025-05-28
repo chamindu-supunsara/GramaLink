@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SITS.BNS.Application.Repositories.Common
+namespace GramaLink.Application.Repositories.Common
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
